@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+header{
+    display: flex;
+    height: 48px;
+    background-color:rgb(34, 34, 34);
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.header-logo{
+  margin-left: 200px;
+}
+
+.header-logo img{
+    width: 35px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.mob-title{
+    display: none;
+    color: #5d5f61;
+    font-size: 15px;
+}
+
+.mobile-link{
+    display: none;
+}
+
+
+@media (min-width:200px) and (max-width:768px){
+
+    header{
+        width: 100%;
+      
+    }
+
+    .mob-title{
+        display: block;
+    }
+
+    .header-logo{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .head-title{
+        display: none;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .app-button{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .email-field{
+        display: none;
+    }
+
+    .save-user label{
+        display: none;
+    }
+
+    .save-user img{
+        display: none;
+    }
+
+    .save-user input{
+        display: none;
+    }
+
+    .line-view{
+        display: none;
+    }
+
+    .qrcode-view img{
+        display: none;
+    }
+
+    .qrcode-info{
+        display: none;
+    }
+
+    .bottom-section p{
+        display: none;
+    }
+
+    .bottom-section a{
+        display: none;
+    }
+
+    .right a{
+        display: none;
+    }
+
+    section{
+        width: 100% !important;
+    }
+
+    .main{
+        width: 100% !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        width: 98% !important;
+    }
+
+    .right{
+        width: 98% !important;
+    }
+
+    .sign-in button::after{
+        content: "by phone number or email";
+        margin-left: 3px;
+    }
+
+    .all-products{
+        width: 100% !important;
+    }
+
+    .all-products a:first-child{
+        display: none;
+    }
+
+    .mobile-link{
+        display: flex;
+        padding: 10px;
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 10px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .mobile-link::after{
+        content: ">";
+        position: absolute;
+        right: 10px;
+    }
+
+    .mobile-link::before{
+        content: "\f3ce";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 5px;
+    }
+
+   .right .sign-in-title{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .right .top-section{
+        padding: 12px;
+    }
+
+    .right .bottom-section{
+        padding: 12px;
+    }
+
+}

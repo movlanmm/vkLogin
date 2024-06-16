@@ -1,0 +1,76 @@
+/* left side css */
+
+.left{
+    width: 50%;
+    text-align: center;
+    /* margin-right: 60px; */
+}
+
+.head-title{
+    color: rgb(225, 227, 230);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.title{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 420px;
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.app-icon{
+    width: 17px;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+    background-color: white;
+    border-radius: 8px;
+}
+.app-target{
+    text-decoration: none;
+    color: rgb(225, 227, 230);
+    font-size: 13px;
+    font-weight: 400;
+    height: 32px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.app-button button{
+    background-color: rgb(20, 20, 20);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.app-button button:hover{
+    background-color: rgb(163, 163, 163);
+}
+.all-products a{ 
+    text-decoration: none;
+    color: rgb(113, 170, 235);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.all-products a:hover{
+    text-decoration: underline;
+}
